@@ -1,0 +1,14 @@
+[disabled-wrapper] {
+    position: relative;
+    z-index: 0;
+}
+[disabled-wrapper] [disabled] {
+    position: relative;
+    z-index: -1;
+}
+.ng-invalid { }
+.ng-valid { }
+.ng-untouched { }
+.ng-touched { }
+.ng-dirty { }
+.ng-pristine { }
